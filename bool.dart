@@ -1,10 +1,12 @@
-//Testing For Equality (Control Flows)
 void main() {
-   bool doesOneEqualTwo = (2==2);
-  print(doesOneEqualTwo);
-
-  //Testing For InEquality
-  const doesOneNotEqualTwo = (1!=2);
-  print(doesOneNotEqualTwo);
-
-}
+  const number = 10;
+  if (number >= 10) {
+    print('Your number is greater than 10.');
+  } 
+  if (number <= 10) {
+    print('Your number is less than 10.');
+  }
+  if (number == 10) {
+    print('Your number is equal to 10.');
+  }
+  }
